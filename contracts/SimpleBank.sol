@@ -85,7 +85,7 @@ contract SimpleBank {
         // balance[msg.sender] = ;
         emit LogDepositMade(msg.sender, amount)
 
-    }
+    };
 
     /// @notice Withdraw ether from bank
     /// @dev This does not return any excess ether sent to it
